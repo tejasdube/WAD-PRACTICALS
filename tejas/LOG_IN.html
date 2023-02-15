@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+</head>
+<style>
+
+   .name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(64, 103, 219);
+    width: 400px;
+    margin: auto;
+    border-radius: 7px;
+    height: 80px;
+   }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:royalblue ;
+    width: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+#logIn:hover{
+   color: black;
+   background-color:rgb(204, 95, 200);
+}
+#forget:hover{
+    color: rgb(0, 255, 149);
+
+}
+#create:hover{
+    color: aqua;
+   
+}
+#fb:hover{
+ color: rgb(34, 12, 163);
+}
+</style>
+<body>
+    <div class="name">
+        <header>
+            <h1 id="fb">FACEBOOK</h1><br><br> 
+        </header>
+        
+    </div>
+    <br>
+    <div class="container">
+        <main>
+            <br>
+            <input type="text" placeholder="username">
+            <br>
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <br>
+            <input id="logIn" type="button" value="LOG IN">
+            <br>
+            <a href="/forget.html" id="forget"> forget a password?</a>
+<br>
+            <br>
+            already have an account? <a href="/Sign_Up.html" id="create"> create a account</a>
+            <br><br>
+
+        </main>
+    </div>
+</body>
+</html>
